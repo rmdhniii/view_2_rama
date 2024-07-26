@@ -29,6 +29,8 @@ Route::get('evaluasi/jawab/empat/{jurusan}', function ($jurusan) {
             'kelas' => 1
         ],
     ];
-    return view('evaluasi.profile', $profile);
+    return view('evaluasi.profile', $profile[$jurusan]
+
+);
 });
 

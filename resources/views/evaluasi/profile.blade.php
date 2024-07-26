@@ -14,7 +14,7 @@
         </div>
         <div class="card-body">
           <blockquote class="blockquote mb-0">
-            <p>kompetensi : {{$rpl['nama']}} <br> Ketua Kompetensi : {{$rpl['kajur']}} <br> Jumlah Kelas : {{$rpl['kelas']}}</p>
+            <p>kompetensi : {{$nama}} <br> Ketua Kompetensi : {{$kajur}} <br> Jumlah Kelas : {{$kelas}}</p>
           </blockquote>
         </div>
       </div>
